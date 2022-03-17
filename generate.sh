@@ -25,5 +25,5 @@ for file in $FILES; do
 	filename=$(basename $file).sha256sum
 	if [[ -e $filename && $FORCE = "false" ]]; then continue; fi
 	echo $filename
-	sha256sum $file | awk '{printf $1}' > $filename
+	sha256sum $file | awk '{printf $1}' > $filename &
 done
