@@ -27,3 +27,5 @@ for file in $FILES; do
 	echo $filename
 	sha256sum $file | awk '{printf $1}' > $filename &
 done
+
+wait
