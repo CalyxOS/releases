@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "19ac432d_4940d753",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-12-06T19:46:13Z",
+      "side": 1,
+      "message": "We\u0027d fix this usually but this release only stayed in beta, let\u0027s directly go to 4.3.2",
+      "revId": "4f66644aa7c0b468dd81b0c692da673c60a3ac22",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
